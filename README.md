@@ -1,6 +1,6 @@
 # Embedded iframes POC
 
-This is a playground to allow for 
+This is a playground to allow for experimenting with getting the correct origin within embedded iframes.
 
 To run:
 
