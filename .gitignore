@@ -1,0 +1,7 @@
+node_modules/
+
+# the top-level index.js is copied to these
+# as part of the start command
+one/index.js
+two/index.js
+three/index.js
