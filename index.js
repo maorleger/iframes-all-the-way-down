@@ -1,3 +1,4 @@
+// copied to individual folders as part of `npm start`
 console.dir({
   url: window.location.href,
   referrer: window.document.referrer,
