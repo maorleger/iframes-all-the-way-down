@@ -3,11 +3,18 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>My First Parcel App</title>
+  <!-- <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script> -->
+  <script type="text/javascript" src="https://sandbox.web.squarecdn.com/1.41.2-canary.sha-8a41011/square.js"></script>
 </head>
 
 <body>
-  <iframe src="http://localhost:3002"></iframe>
+  <h2>One nesting deep</h2>
+  <form id="payment-form">
+    <div id="card-container"></div>
+    <button id="card-button" type="button">Pay $1.00</button>
+  </form>
+  <div id="payment-status-container"></div>
+  <iframe src="http://localhost:3002" width="800" height="800"></iframe>
   <script type="module" src="./index.js"></script>
 </body>
 
