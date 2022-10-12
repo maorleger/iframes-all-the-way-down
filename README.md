@@ -14,7 +14,7 @@ Ensure port 3000 is unused.
 
 ```bash
 npm install
-npm run start
+npm run start # copies index.js to each folder and serves each folder
 ```
 
 ### Usage with ngrok
