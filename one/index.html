@@ -4,16 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <script type="text/javascript" src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
+  <!-- <script type="text/javascript" src="https://sandbox.web.squarecdn.com/1.41.1/square.js"></script> -->
 </head>
 
 <body>
-  <h2>Top Level</h2>
+  <h2>One</h2>
   <form id="payment-form">
-    <div id="card-container"></div>
-    <button id="card-button" type="button">Pay $1.00</button>
+    <div id="container"></div>
+    <button id="pay-button" type="button">TOKENIZE</button>
   </form>
   <div id="payment-status-container"></div>
-  <iframe src="http://localhost:3001" width="800" height="800"></iframe>
+  <iframe allow="payment" src="http://localhost:3001" width="800" height="800"></iframe>
   <script type="module" src="./index.js"></script>
 </body>
 
